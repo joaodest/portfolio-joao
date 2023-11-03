@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+
+
 import * as AOS from 'aos';
 
 
@@ -10,6 +13,7 @@ import * as AOS from 'aos';
 })
 export class AppComponent implements OnInit {
   title = 'joao-portfolio';
+  
 
   constructor(private titleService: Title, private metaService: Meta) { }
   ngOnInit(): void {
@@ -20,6 +24,9 @@ export class AppComponent implements OnInit {
     ]);
 
     AOS.init();
+
+    
   }
+
 
 }
