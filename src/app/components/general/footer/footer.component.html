@@ -2,27 +2,34 @@
     <div [@animateFooter]>
         <ul class="footer-left-bar d-none d-md-block">
             <li>
-                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/joaodest" target='_blank'>
-                    <i class="fab fa-github"></i>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
+                    href="https://github.com/joaodest" target='_blank'>
+                    <fa-icon [icon]="['fab', 'github']" class="icons"></fa-icon>
                 </a>
             </li>
             <li>
-                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/joaodest/" target='_blank'>
-                    <i class="fab fa-linkedin-in"></i>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")'
+                    href="https://www.linkedin.com/in/joaodest/" target='_blank'>
+                    <fa-icon [icon]="['fab', 'linkedin']" class="icons"></fa-icon>
                 </a>
             </li>
         </ul>
         <div class="footer-right-bar d-none d-md-block">
-            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:joao.diastest@gmail.com" target='_blank'>joao.diastest@gmail.com </a>
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")'
+                href="mailto:joao.diastest@gmail.com" target='_blank'>joao.diastest@gmail.com </a>
         </div>
     </div>
 
-    <div class="footer-credits text-center" >
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")' href="https://github.com/joaodest" target="_blank" rel="nofollow noopener noreferrer">
+    <div class="footer-credits text-center">
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")'
+            href="https://github.com/joaodest" target="_blank" rel="nofollow noopener noreferrer">
             <div>Built with Angular by Joao Paulo Dias Estevao</div>
         </a>
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")' href="https://github.com/andresjosehr/andresjosehr-portfolio" target="_blank" rel="nofollow noopener noreferrer">
-            <div class="mt-2">Design por Brittany Chiang, Jośe Andreś & Muffeez Khalid</div>
+
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")'
+            href="https://github.com/andresjosehr/andresjosehr-portfolio" target="_blank"
+            rel="nofollow noopener noreferrer">
+            <div class="mt-2">Designed for Brittany Chiang, Jośe Andreś & Muffeez Khalid</div>
         </a>
     </div>
 

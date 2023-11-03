@@ -66,7 +66,7 @@ footer {
     }
 
     .footer-credits {
-        font-family: red;
+        font-family: $CodeFont;
         font-size: 12px;
         line-height: 1;
 
@@ -87,9 +87,12 @@ footer {
 
             &:hover,
             &:focus {
-                text-decoration: none;
+                
                 color: $Green;
             }
         }
+    }
+    .icons {
+        color: $LightSlate;
     }
 }

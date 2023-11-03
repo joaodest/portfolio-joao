@@ -1,3 +1,4 @@
+import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit{
 
-  constructor(){}
+  constructor(private analyticsService: AnalyticsService){}
 
   ngOnInit(): void {
-    
+    this.analyticsService.sendAnalyticPageView("/inicio", "inicio...");
   }
 
 }
