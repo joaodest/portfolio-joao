@@ -3,6 +3,7 @@ import { Component, OnInit, ViewChild, HostListener, AfterViewInit } from '@angu
 import { Router } from '@angular/router';
 import { trigger, style, query, transition, stagger, animate } from '@angular/animations'
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { path } from 'src/app/constants';
 
 @Component({
   selector: 'app-header',
@@ -25,13 +26,14 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class HeaderComponent implements OnInit {
 
-  public headersData: any;
+  headersData: any;
+  
   responsiveMenuVisible: Boolean = false;
   pageYPosition!: number;
 
   constructor(private router: Router, public analyticsService: AnalyticsService, private http: HttpClient) { }
   ngOnInit(): void {
-    this.http.get('/assets/data.json').subscribe(data => {
+    this.http.get(path).subscribe(data => {
       this.headersData = data;
     });
   }

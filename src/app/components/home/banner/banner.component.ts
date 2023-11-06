@@ -1,6 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition, stagger, query } from "@angular/animations"
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { path } from 'src/app/constants';
 
 @Component({
   selector: 'app-banner',
@@ -24,11 +26,17 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 
 export class BannerComponent implements OnInit {
+
+  bannerData : any;
+
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    private http: HttpClient
   ) { }
   ngOnInit(): void {
-
+    this.http.get(path).subscribe(data => {
+      this.bannerData = data;
+    })
   }
 
 }
