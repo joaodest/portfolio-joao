@@ -4,19 +4,19 @@
             <div class="content">
                 <div>
                     <!-- <h1>Hola, mi nombre es</h1> -->
-                    <h1>Oi! Meu nome é </h1>
+                    <h1>Ola! Me chamo </h1>
                 </div>
                 <div class='banner-title'>
                     <h2>João Paulo.</h2>
                     <h3>Fullstack Development / Transformação digital</h3>
                 </div>
                 <div class='banner-description'>
-                    <p [innerHTML]='"Banner.Description"' class="mt-4"></p>
+                    <p [innerHTML]='bannerData.Description' class="mt-4"></p>
                 </div>
             </div>
             <div class="div-btn-banner">
                 <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:muffeezkhalid@gmail.com" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn"}}
+                    {{bannerData.ActionBtn}}
                 </a>
             </div>
         </div>

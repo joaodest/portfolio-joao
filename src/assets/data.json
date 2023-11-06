@@ -1,0 +1,9 @@
+{
+    "Header1": "Sobre mim",
+    "Header2": "Experiencia",
+    "Header3": "Projetos",
+    "Header4": "Contato",
+    "Description":"Com <span class='underline'>aproximadamente 3 anos de experiência</span>, o foco experiência final do cliente, desenvolvendo sistemas end-to-end. Além de entregar uma solução adequada, viso escrever códigos limpos, de fácil reuso e escaláveis em <span class='underline'>Flutter, C# e Angular</span>.",
+    "ActionBtn": "Entrar em contato"
+
+}
