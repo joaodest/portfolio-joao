@@ -1,3 +1,6 @@
 {
-    "Header.Item1": "Sobre mim"
+    "Header1": "Sobre mim",
+    "Header2": "Experiencia",
+    "Header3": "Projetos",
+    "Header4": "Contato"
 }

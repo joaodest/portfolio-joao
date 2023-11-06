@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
@@ -13,10 +14,13 @@ import * as AOS from 'aos';
 })
 export class AppComponent implements OnInit {
   title = 'joao-portfolio';
+  headersData: any
   
 
-  constructor(private titleService: Title, private metaService: Meta) { }
+  constructor(private titleService: Title, private metaService: Meta, private http: HttpClient) { }
   ngOnInit(): void {
+
+    
     this.titleService.setTitle("Joao Paulo | Fullstack Developer");
     this.metaService.addTags([
       { name: 'keywords', content: 'Fullstack, Software Engineer, software, developer' },
