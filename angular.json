@@ -5,7 +5,11 @@
   "projects": {
     "portifolio-joao": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -15,7 +19,7 @@
           "options": {
             "allowedCommonJsDependencies": [
               "lodash"
-           ],
+            ],
             "outputPath": "dist/portifolio-joao",
             "index": "src/index.html",
             "main": "src/main.ts",
