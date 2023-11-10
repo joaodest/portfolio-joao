@@ -3,7 +3,11 @@
     "Header2": "Experiencia",
     "Header3": "Projetos",
     "Header4": "Contato",
-    "Description":"Com <span class='underline'>aproximadamente 3 anos de experiência</span>, tenho como prioridade construir softwares que visam a experiência final do cliente, desenvolvendo sistemas end-to-end. Além de entregar uma solução adequada, viso escrever códigos limpos, de fácil reuso e escaláveis em <span class='underline'>Flutter, C# e Angular</span>.",
-    "ActionBtn": "Entrar em contato"
-
+    "Description": "Com <span class='underline'>aproximadamente 3 anos de experiência</span>, tenho como prioridade construir softwares que visam a experiência final do cliente, desenvolvendo sistemas end-to-end. Além de entregar uma solução adequada, viso escrever códigos limpos, de fácil reuso e escaláveis em <span class='underline'>Flutter, C# e Angular</span>.",
+    "ActionBtn": "Entrar em contato",
+    "AboutTitle": "Sobre mim",
+    "AboutParag": [
+        "Em meus <span class='underline'>3 anos como desenvolvedor</span>, o mais importante que aprendi eh que sempre podemos melhorar mais um pouco. Durante minha trajetoria tive a oportunidade de trabalhar e me aprofundar no processo de criacao de software como, de fato, uma solucao.",
+        "Esse processo se deu inicio com desenvolvimento mobile, principalmente cross-platform com <span class='underline'>Flutter</span>, neste momento ja pude me familiarizar com servicos como <span class='underline'>Google Cloud e Azure</span>."
+    ]
 }
