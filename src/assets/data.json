@@ -3,7 +3,39 @@
     "Header2": "Experiencia",
     "Header3": "Projetos",
     "Header4": "Contato",
-    "Description":"Com <span class='underline'>aproximadamente 3 anos de experiência</span>, o foco experiência final do cliente, desenvolvendo sistemas end-to-end. Além de entregar uma solução adequada, viso escrever códigos limpos, de fácil reuso e escaláveis em <span class='underline'>Flutter, C# e Angular</span>.",
-    "ActionBtn": "Entrar em contato"
-
+    "Description": "Com <span class='underline'>aproximadamente 3 anos de experiência</span>, tenho como prioridade construir softwares que visam a experiência final do cliente, desenvolvendo sistemas end-to-end. Além de entregar uma solução adequada, viso escrever códigos limpos, de fácil reuso e escaláveis em <span class='underline'>Flutter, C# e Angular</span>.",
+    "ActionBtn": "Entrar em contato",
+    "AboutTitle": "Sobre mim",
+    "AboutParag": [
+        "Em meus <span class='underline'>3 anos como desenvolvedor</span>, o mais importante foi aprender a me aprimorar dia após dia. Durante minha trajetória, tive a oportunidade de trabalhar e me aprofundar em processos de <span class='underline'>testes unitários, performando integração contínua.</span>",
+        "Minha jornada teve início com desenvolvimento mobile, principalmente cross-platform em <span class='underline'>Flutter</span>. Neste momento, conheço e utilizo serviços como <span class='underline'>Google Cloud e Azure</span>.",
+        "Por último e não menos importante, ao longo do tempo, também me especializei em <span class='underline'>C# e .NET</span> como principais ferramentas de backend e <span class='underline'>Angular</span> para criação de SPAs.",
+        "Dentre minhas habilidades, também estão soft skills como trabalhar bem em equipe, organização e assumir o papel de liderança caso necessário, muito devido à minha experiência trabalhando com diferentes profissionais ao longo desses 3 anos."
+    ],
+    "ExperiencieTitle": "Experiencias",
+    "ExperienceJobs": [
+        {
+            "Tab": "Servcom",
+            "Title": "Fullstack Developer",
+            "Date": "08/2023 - Atual",
+            "Description": [
+                "Contribuí na migração de código legado para .NET 3.5, onde novas funcionalidades poderão ser criadas.",
+                "Criação de rotinas backend, otimização de recursos e refatoração de lógicas de negócio utilizando C# e .NET 7.",
+                "Desenvolvimento e integração de APIs RESTful para pagamentos do lado do cliente.",
+                "Prototipagem e implementação de componentes de interface utilizando JS puro, buscando uma maior performance no client-side.",
+                "Integração contínua e metodologias ágeis de desenvolvimento com uma equipe multidisciplinar."
+            ]
+        },
+        {
+            "Tab": "Freelancer",
+            "Title": "Freelancing FPE",
+            "Date": "02/2020 - Atual",
+            "Description": [
+                "Prototipagem e UX design de interfaces web e mobile utilizando Figma e Miro.",
+                "Construção de aplicativos performáticos utilizando Flutter, em conjunto com bancos de dados SQL e NoSQL.",
+                "Implementação CI/CD com Azure. Refatoração e otimização de sistemas complexos.",
+                "Sistemas end-to-end para empresas de pequeno e médio porte."
+            ]
+        }
+    ]
 }

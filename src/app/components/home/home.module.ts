@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { MoreProjectsComponent } from './more-projects/more-projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -24,6 +25,7 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     NgbNavModule,
+    CarouselModule
   ]
 })
 export class HomeModule { }
