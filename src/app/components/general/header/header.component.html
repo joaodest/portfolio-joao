@@ -39,21 +39,22 @@
                     <ol>
                         <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
                             <a (click)='scroll("about")'>
+                                <span>01. </span> {{ headersData.Header1 }}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
                             <a (click)='scroll("jobs")'>
-                                <span>02. </span> {{"Header.Item2"}}
+                                <span>02. </span> {{ headersData.Header2 }}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
                             <a (click)='scroll("projects")'>
-                                <span>03. </span> {{"Header.Item3"}}
+                                <span>03. </span> {{ headersData.Header3 }}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
                             <a (click)='scroll("projects")'>
-                                <span>04. </span> {{"Header.Item4"}}
+                                <span>04. </span> {{ headersData.Header4 }}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>

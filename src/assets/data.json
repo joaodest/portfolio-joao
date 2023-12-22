@@ -3,13 +3,13 @@
     "Header2": "Experiencia",
     "Header3": "Projetos",
     "Header4": "Contato",
-    "Description": "Com <span class='underline'>aproximadamente 3 anos de experiência</span>, tenho como prioridade construir softwares que visam a experiência final do cliente, desenvolvendo sistemas end-to-end. Além de entregar uma solução adequada, viso escrever códigos limpos, de fácil reuso e escaláveis em <span class='underline'>Flutter, C# e Angular</span>.",
+    "Description": "Com <span class='underline'>3 anos de experiência</span> como desenvolvedor <span class='underline'>Fullstack</span>, minha prioridade é criar softwares que proporcionem a melhor experiência possível para o meu usuário. Minha especialidade são sistemas end-to-end e além de entregar uma solução adequada, viso escrever códigos limpos, escaláveis e de fácil reutilização nas tecnologias <span class='underline'>.NET, Flutter & Angular</span>.",
     "ActionBtn": "Entrar em contato",
     "AboutTitle": "Sobre mim",
     "AboutParag": [
-        "Em meus <span class='underline'>3 anos como desenvolvedor</span>, o mais importante foi aprender a me aprimorar dia após dia. Durante minha trajetória, tive a oportunidade de trabalhar e me aprofundar em processos de <span class='underline'>testes unitários, performando integração contínua.</span>",
-        "Minha jornada teve início com desenvolvimento mobile, principalmente cross-platform em <span class='underline'>Flutter</span>. Neste momento, conheço e utilizo serviços como <span class='underline'>Google Cloud e Azure</span>.",
-        "Por último e não menos importante, ao longo do tempo, também me especializei em <span class='underline'>C# e .NET</span> como principais ferramentas de backend e <span class='underline'>Angular</span> para criação de SPAs.",
+        "Em meus <span class='underline'>3 anos como desenvolvedor</span>, o mais importante foi aprender a me aprimorar dia após dia. Durante minha trajetória, tive a oportunidade de trabalhar e me aprofundar em processos de <span class='underline'>alta escalabilidade, performando integração e entrega contínua.</span>",
+        "Minha jornada teve início com desenvolvimento mobile, utilizando <span class='underline'>Flutter</span>.",
+        "E há mais de dois anos me especializei em <span class='underline'>.NET & Angular</span> como principais ferramentas de <span class='underline'>desenvolvimento web</span>",
         "Dentre minhas habilidades, também estão soft skills como trabalhar bem em equipe, organização e assumir o papel de liderança caso necessário, muito devido à minha experiência trabalhando com diferentes profissionais ao longo desses 3 anos."
     ],
     "ExperiencieTitle": "Experiencias",
@@ -19,11 +19,11 @@
             "Title": "Fullstack Developer",
             "Date": "08/2023 - Atual",
             "Description": [
-                "Contribuí na migração de código legado para .NET 3.5, onde novas funcionalidades poderão ser criadas.",
+                "Contribuí na migração de código legado para .NET 3.5, resultando em redução de custos e tempo para o setor de suporte.",
                 "Criação de rotinas backend, otimização de recursos e refatoração de lógicas de negócio utilizando C# e .NET 7.",
-                "Desenvolvimento e integração de APIs RESTful para pagamentos do lado do cliente.",
-                "Prototipagem e implementação de componentes de interface utilizando JS puro, buscando uma maior performance no client-side.",
-                "Integração contínua e metodologias ágeis de desenvolvimento com uma equipe multidisciplinar."
+                "Desenvolvimento e integração de APIs RESTful para pagamentos, implementando as principais formas de pagamento do mercado.",
+                "Implementação de componentes de interface utilizando JS puro, impulsionando significativamente a performance no software da empresa.",
+                "Integração contínua e metodologias ágeis de desenvolvimento numa equipe multidisciplinar."
             ]
         },
         {
@@ -37,5 +37,21 @@
                 "Sistemas end-to-end para empresas de pequeno e médio porte."
             ]
         }
+    ],
+    "ProjectsTitle": "Projetos",
+    "ProjectsLabel": "Projeto",
+    "ProjectsItens": [
+        {
+            "Title": "Visão Computacional - Reconhecimento de imagens",
+            "Description": "O projeto consiste em utilizar recursos de <span class='underline'>visão computacional</span> para analisar imagens e arquivos de modo a identificar padrões em elementos visuais que possam servir para automatizar processos. Garantindo assim, ganho e otimização de tempo.",
+            "Images": [
+                "assets/images/img1_cv.jpg"
+            ],
+            "Technologies": [
+                "C#",
+                "EMGU CV"
+            ]
+        }
+        
     ]
 }
