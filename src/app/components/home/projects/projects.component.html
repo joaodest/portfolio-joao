@@ -8,7 +8,7 @@
             </div>
             <div *ngFor='let project of projectsData.ProjectsItens; let i = index' class="d-flex project-container"
                 data-aos="fade-up" data-aos-duration="1000">
-                <owl-carousel-o class="owl-carousel-o" [options]="customOptions">
+                <owl-carousel-o class="owl-carousel-o" [options]="customOptions" *ngIf="i%2==0">
                     <ng-container *ngFor='let img of project.Images'>
                         <ng-template carouselSlide>
                             <div class="img-container" id="imgContainer">
@@ -17,9 +17,11 @@
                         </ng-template>
                     </ng-container>
                 </owl-carousel-o>
-                <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
+
+                <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000"
+                    *ngIf="i%2==0">
                     <div class="img-feature-project-box">
-                        <div class="img-container" style='width: auto;'><img [src]="project.Images"
+                        <div class="img-container" style='width: auto;'><img [src]="project.Images[0]"
                                 [alt]="project.Title" width='600px' class="img-feature-project rounded"></div>
                     </div>
                 </div>
@@ -35,19 +37,19 @@
                             <p class="mb-0" [innerHTML]="project.Description">
                             </p>
                         </div>
-                        <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0'
+                        <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i %2 != 0'
                             class="project-skills">
-                            <li *ngFor='let technology of project.Technologies' class="ml-3">
+                            <li *ngFor='let technology of project.Technologies' class="ml-4">
                                 <span class="underline technology">{{technology}}</span>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2!=0">
-                    <ng-container *ngFor="let img of project.Images">
-                        <ng-template carouselSlide [id]="projectsData.Title">
-                            <div class='img-container'>
-                                <img class='img-feature-project rounded' [src]="img" [alt]="project.Title">
+                <owl-carousel-o class="owl-carousel-o" [options]="customOptions" *ngIf="i%2!=0">
+                    <ng-container *ngFor='let img of project.Images' >
+                        <ng-template carouselSlide>
+                            <div class="img-container" id="imgContainer">
+                                <img [src]="img" [alt]="project.Title" class='img-feature-project rounded'>
                             </div>
                         </ng-template>
                     </ng-container>
@@ -55,7 +57,7 @@
                 <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0">
                     <div class="img-feature-project-box">
                         <div class="img-container" style='width: auto;'>
-                            <img class='img-feature-project rounded' [src]="project.Images[0]" [alt]="project.Images[0]"
+                            <img class='img-feature-project rounded' [src]="project.Images[0]" [alt]="project.Title"
                                 width='600px'>
                         </div>
                     </div>

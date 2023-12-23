@@ -44,5 +44,4 @@ export class ProjectsComponent implements OnInit {
       behavior: 'smooth'
     })
   }
-
 }

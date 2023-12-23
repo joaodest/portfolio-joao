@@ -51,7 +51,18 @@
                 "C#",
                 "EMGU CV"
             ]
+        },
+        {
+            "Title": "Langchain - Automatização no processo de extração dinamica de dados",
+            "Description": "Como uma extensão do projeto de analise e reconhecimento de imagens, neste projeto foi desenvolvido um sistema em <span class='underline'>Python </span> para lidar com <span class='underline'>extração dinâmica de dados</span> de modo a automatizar o processo de utilização destes dados extrajudiciais pela empresa, permitindo manipulações de maneira simplificada.",
+            "Images": [
+                "assets/images/result.jpeg",
+                "assets/images/langchain.jpeg"
+            ],
+            "Technologies": [
+                "Python",
+                "Langchain"
+            ]
         }
-        
     ]
 }
