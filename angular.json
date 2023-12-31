@@ -28,7 +28,6 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -64,6 +63,7 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+              
             }
           },
           "defaultConfiguration": "production"
@@ -95,7 +95,6 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
