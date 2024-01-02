@@ -5,6 +5,7 @@ import { trigger, style, query, transition, stagger, animate } from '@angular/an
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { path } from 'src/app/constants';
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -27,13 +28,13 @@ import { path } from 'src/app/constants';
 export class HeaderComponent implements OnInit {
 
   headersData: any;
-  
+
   responsiveMenuVisible: Boolean = false;
   pageYPosition!: number;
 
   constructor(private router: Router, public analyticsService: AnalyticsService, private http: HttpClient) { }
   ngOnInit(): void {
-    this.http.get(path).subscribe(data => {
+    this.http.get(path).subscribe((data: any) => {
       this.headersData = data;
     });
   }
@@ -47,10 +48,10 @@ export class HeaderComponent implements OnInit {
     this.responsiveMenuVisible = false;
   }
 
-  //falta implementar download do Curriculo
 
-  @HostListener('window:scroll', ['getScrollPosition($event)'])
-  getScrollPosition(event: any) {
-    this.pageYPosition = window.scrollY;
+  downloadCV() {
+    let url = window.location.href; // Replace with the actual file URL
+
+    window.open(url + "/../assets/" + "JoaoPauloDiasEstevao_CV.pdf", "_blank");
   }
 }

@@ -1,7 +1,7 @@
 <nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
     <div class="container">
         <a class="navbar-brand text-light" [routerLink]="'inicio'">
-            <img src='../../../../assets/images/d&e.png' width='80' />
+            <img src='../../../../assets/images/d&e.svg' width='80' />
         </a>
 
         <ul ngbNav #nav="ngbNav" class="menu-ul">
@@ -26,7 +26,9 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
-
+                <a (click)="downloadCV()" class="main-btn cv-btn p-2" ngbNavLink>
+                    {{headersData.HeaderBtn}}
+                  </a>
             </li>
         </ul>
         <div class="menu-wrapper">
