@@ -3,6 +3,7 @@
     "Header2": "Experiencia",
     "Header3": "Projetos",
     "Header4": "Contato",
+    "HeaderBtn": "Curriculo",
     "Description": "Com <span class='underline'>3 anos de experiência</span> como desenvolvedor <span class='underline'>Fullstack</span>, minha prioridade é criar softwares que proporcionem a melhor experiência possível para o meu usuário. Minha especialidade são sistemas end-to-end e além de entregar uma solução adequada, viso escrever códigos limpos, escaláveis e de fácil reutilização nas tecnologias <span class='underline'>.NET, Flutter & Angular</span>.",
     "ActionBtn": "Entrar em contato",
     "AboutTitle": "Sobre mim",
@@ -19,11 +20,11 @@
             "Title": "Fullstack Developer",
             "Date": "08/2023 - Atual",
             "Description": [
-                "Contribuí na migração de código legado para .NET 3.5, resultando em redução de custos e tempo para o setor de suporte.",
-                "Criação de rotinas backend, otimização de recursos e refatoração de lógicas de negócio utilizando C# e .NET 7.",
-                "Desenvolvimento e integração de APIs RESTful para pagamentos, implementando as principais formas de pagamento do mercado.",
-                "Implementação de componentes de interface utilizando JS puro, impulsionando significativamente a performance no software da empresa.",
-                "Integração contínua e metodologias ágeis de desenvolvimento numa equipe multidisciplinar."
+                "Projeto de migração de sistemas monolíticos para arquitetura baseada em .NET 3.5, superando desafios de legado com soluções inovadoras que culminaram em uma significativa redução de custos e aumento da eficiência operacional no suporte técnico.",
+                "Desenvolvimento e otimização de rotinas backend críticas, executando refatoração de lógicas de negócio com C# em ambiente .NET 7. A expertise aplicada não só aprimorou a performance dos sistemas, mas também fortaleceu a base para funcionalidades expansíveis e manutenção simplificada.",
+                "Projetos de integração e desenvolvimento de APIs RESTful robustas, incluindo a implementação de gateways de pagamento líderes do mercado, o que potencializou a confiabilidade e a segurança das transações comerciais da empresa.",
+                " Inovação no frontend com a implementação de componentes de interface desenhados em JavaScript puro, elevando substancialmente a velocidade e a reatividade do software, proporcionando uma experiência de usuário mais ágil e satisfatória.",
+                "Contribuição ativa para a adoção de práticas ágeis e integração contínua em um ambiente multidisciplinar, assegurando entregas rápidas, consistentes e de alta qualidade, alinhadas com os objetivos estratégicos da empresa."
             ]
         },
         {
@@ -31,16 +32,31 @@
             "Title": "Freelancing FPE",
             "Date": "02/2020 - Atual",
             "Description": [
-                "Prototipagem e UX design de interfaces web e mobile utilizando Figma e Miro.",
-                "Construção de aplicativos performáticos utilizando Flutter, em conjunto com bancos de dados SQL e NoSQL.",
-                "Implementação CI/CD com Azure. Refatoração e otimização de sistemas complexos.",
-                "Sistemas end-to-end para empresas de pequeno e médio porte."
+                "Desenvolvimento Full-Stack: Com amplo conhecimento em back-end (.NET, C#, Python, SQL Server) e front-end (Angular, TypeScript, HTML5, CSS3), crio experiências digitais coesas e performáticas.",
+                "Mobile Development: Desenvolvo aplicativos móveis envolventes e de alto desempenho utilizando Flutter, garantindo uma experiência de usuário consistente em todas as plataformas.",
+                "Arquitetura de Sistemas: Projetos arquitetônicos end-to-end com padrões de design como MVC e MVVM, garantindo sistemas expansíveis e manuteníveis.",
+                "DevOps & Cloud Services: Integração e entrega contínuas (CI/CD), contêinerização (Docker, Kubernetes) e cloud computing (Azure, AWS), para uma implantação eficiente e escalabilidade em nuvem."
             ]
         }
     ],
     "ProjectsTitle": "Projetos",
     "ProjectsLabel": "Projeto",
     "ProjectsItens": [
+        {
+            "Title": "API - Portfólio",
+            "Description": "Este projeto envolve a criação de um backend robusto e escalável para sistemas de portfólio, como este. Foi desenvolvido um sistema de backend em <span class='underline'>.NET Core</span> e <span class='underline'>C#</span>, integrado com APIs externas como GitHub e LinkedIn para extrair dados dinâmicos. Utiliza <span class='underline'>PostgreSQL</span> para armazenamento de dados e <span class='underline'>RabbitMQ</span> para comunicação assíncrona entre diferentes serviços. Além disso, incorpora práticas de segurança, como autenticação baseada em chave de API e rate limiting.",
+            "Images": [
+                "assets/images/arq.jpeg",
+                "assets/images/pg_admin.jpeg"
+            ],
+            "Technologies": [
+                ".NET Core",
+                "C#",
+                "PostgreSQL",
+                "RabbitMQ",
+                "Docker"
+            ]
+        },
         {
             "Title": "Visão Computacional - Reconhecimento de imagens",
             "Description": "O projeto consiste em utilizar recursos de <span class='underline'>visão computacional</span> para analisar imagens e arquivos de modo a identificar padrões em elementos visuais que possam servir para automatizar processos. Garantindo assim, ganho e otimização de tempo.",
@@ -64,5 +80,32 @@
                 "Langchain"
             ]
         }
-    ]
+    ],
+    "MoreProjectsTitle": "Mais projetos",
+    "MoreProjectsItens": [
+        
+        {
+            "Title": "Coding Future",
+            "Description": "Coding Future é uma iniciativa open-source que visa Ao introduzir jovens às Ciências da Computação de forma gratuita, abordamos desde segurança de dados até desenvolvimento avançado. Utilizando <span class='underline'>Python</span>, <span class='underline'>Flutter</span>, <span class='underline'>Scratch</span> e <span class='underline'>Javascript</span>, este projeto é um produto da colaboração entre estudantes e professores da PUC Minas",
+            "ghLink": "https://github.com/joaodest/Coding-Future",
+            "demoLink": "https://www.linkedin.com/feed/update/urn:li:activity:7130248712693399554/",
+            "Technologies": ["Python", " Flutter", " Javascript"]
+        },
+        {
+            "Title": "Vakinha Burguer",
+            "Description": "Um aplicativo de delivery que foi um use case de estudo, criado para aperfeiçoar minhas habilidades e um contínuo aprofundamento em desenvolvimento mobile. Com uma arquitetura pensada para escalabilidade e uma interface para intuitiva, este projeto foi criado em <span class='underline'>Flutter</span>.",
+            "ghLink": "https://github.com/joaodest/delivery_app_dartweek",
+            "Technologies": ["Flutter", "Bloc", "Provider"]
+        },
+        {
+            "Title": "Sales Web MVC",
+            "Description": " Outro projeto prático, focado em aplicar e aprimorar conhecimentos fundamentais de desenvolvimento de software. Focando em arquitetura em camadas e boas práticas de <span class='underline'> Clean Code</span> e <span class='underline'> Clean Architecture</span>, utilizando <span class='underline'>.NET</span> e <span class='underline'>C#</span>.",
+            "ghLink": "https://github.com/joaodest/SalesWebMVC/tree/master",
+            "Technologies": [".NET", "C#", "Clean Code", "Clean Arch."]
+        }
+    ],
+    "ContatoPretitle": "E agora?",
+    "ContatoTitle": "Entre em contato!",
+    "ContatoContent":"Minha abordagem é impulsionada pela paixão em construir não apenas software, mas soluções que impulsionem o sucesso dos negócios. Vamos transformar oportunidades em realidade. Conheça mais sobre meu trabalho e a D&E Tech.",
+    "ContatoBtn": "Enviar mensagem"
 }
