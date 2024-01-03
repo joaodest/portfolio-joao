@@ -1,1 +1,1 @@
-export const path: string = '/assets/data.json';
+export const path: string = 'assets/data.json';
